@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinemaBase | Kontakt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+<body>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <div class="container">
+      <!--Navigacija-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-md-4">
+        <div class="container">
+          <a class="navbar-brand" href="index.htm">
+          <img src="img/logo.png" alt="CinemaBase Logo" width="40" height="40">
+          CinemaBase</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.htm">Početna</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="repertoar.htm">Repertoar</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="uskoro.htm">
+                  Uskoro
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galerija.htm">Galerija</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="kontakt.htm">Kontakt</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pretraga" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Traži</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+    </div>
+    <!-- Kontakt-->
+    <div class="container"> 
+      <h2 class="display-5">Kontakt</h2>
+      <hr>
+      <div class="row">
+        <!--Leva strana-->
+        <div class="col-6">
+          <ul class="list-unstyled">
+            <li><i class="fa fa-map-marker"></i> Adresa: <span class="float-right"> Kičevska 10, Beograd</span></li>
+            <li><i class="fa fa-phone"></i> Telefon: <span class="float-right"><a href="tel: +11-243-199">011/243-199</a></span></li>
+            <li><i class="fa fa-envelope-square"></i> E-mail: <span class="float-right"><a href="mail-to: podrska@cinemabase.com">podrska@cinemabase.com</a></span></li>
+          </ul>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.8679903986194!2d20.4718156149245!3d44.80387888528124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa02512a7a5%3A0xa9f688e63835383!2sKi%C4%8Devska%2010%2C%20Beograd%2011000!5e0!3m2!1sen!2srs!4v1578275702769!5m2!1sen!2srs" width="540" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <!--Desna strana-->
+        <div class="col-6">
+          <form action="izlaznastrana.html" method="post">
+            <div class="form-group">
+              <label for="ImePrezime"><i class="fa fa-user"></i> Ime i prezime: </label>
+              <input type="text" class="form-control" id="ImePrezime" placeholder="Unesite Vaše ime i prezime">
+            </div>
+            <div class="form-group">
+              <label for="Mejl"><i class="fa fa-at"></i> E-mail adresa: </label>
+              <input type="email" class="form-control" id="Mejl" placeholder="Unesite Vašu e-mail adresu">
+            </div>
+            <div class="form-group">
+              <label for="Telefon"><i class="fa fa-phone"></i> Telefon: </label>
+              <input type="tel" class="form-control" id="Telefon" placeholder="Unesite Vaš broj telefona">
+            </div>
+            <div class="form-group">
+              <label for="NaslovPoruke"><i class="fa fa-heading"></i> Naslov poruke </label>
+              <input type="text" class="form-control" id="NaslovPoruke" placeholder="Unesite naslov Vaše poruke">
+            </div>
+            <div class="form-group">
+              <label for="Tekst"><i class="fa fa-edit"></i> Poruka: </label>
+              <textarea class="form-control" id="Tekst" rows="3" placeholder="Unesite tekst Vaše poruke"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-dark btn-lg btn-block"><i class="far fa-paper-plane"></i>Pošalji</button>
+          </form>
+        </div>
+      </div>
+      </div>
+    </div>
+      
+      <div class="container">
+        <hr>
+        <footer class="bg-dark text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Form -->
+            <section class="">
+              <form action="">               
+                <div class="row d-flex justify-content-center">                 
+                  <div class="col-auto">
+                    <p class="pt-2">
+                      <strong>Prijavite se na naš newsletter</strong>
+                    </p>
+                  </div>                  
+                  <div class="col-md-5 col-12">
+                    <!-- Email-->
+                    <div class="form-outline form-white mb-4">
+                      <input type="email" id="form5Example2" class="form-control" />
+                      <label class="form-label" for="form5Example2">Email adresa</label>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <!-- Submit -->
+                    <button type="submit" class="btn btn-outline-light mb-4">
+                      Prijavi
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </section>
+          </div>
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="index.htm">CinemaBase</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        </div>
+    </div>
+
+</body>
+</html>

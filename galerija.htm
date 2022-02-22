@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinemaBase | Galerija</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    $("button").click(function(){
+  $("div").animate({left: '250px'});
+});  
+    </script>
+</head>
+<body>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <div class="container">
+      <!--Navigacija-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-md-4">
+        <div class="container">
+          <a class="navbar-brand" href="index.htm">
+          <img src="img/logo.png" alt="CinemaBase Logo" width="40" height="40">
+          CinemaBase</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link "  href="index.htm">Početna</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="repertoar.htm">Repertoar</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="uskoro.htm">
+                  Uskoro
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="galerija.htm">Galerija</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kontakt.htm">Kontakt</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pretraga" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Traži</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--Galerija-->
+    <div>
+      <div class="container">
+        <h2 class="display-5">Galerija</h2>
+        <hr>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="active" aria-current="true" aria-label="Slide 5"></button>
+            </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/GvK.jpg"  class="d-block w-100" alt="slika">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/MK.jpeg"  class="d-block w-100" alt="slika">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pyw.jpg"  class="d-block w-100" alt="slika">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/quietPlace.jpg"  class="d-block w-100" alt="slika">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/thwmd2jpg.jpg"  class="d-block w-100" alt="slika">
+                </div>
+                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="container">
+      <hr>
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Form -->
+          <section class="">
+            <form action="">               
+              <div class="row d-flex justify-content-center">                 
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Prijavite se na naš newsletter</strong>
+                  </p>
+                </div>                  
+                <div class="col-md-5 col-12">
+                  <!-- Email-->
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example2" class="form-control" />
+                    <label class="form-label" for="form5Example2">Email adresa</label>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <!-- Submit -->
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Prijavi
+                  </button>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright:
+          <a class="text-white" href="index.htm">CinemaBase</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      </div>
+
+</body>
+</html>
